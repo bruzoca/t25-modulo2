@@ -5,103 +5,35 @@ Modificando arquivo readme para teste.
 COMO ENVIAR, CRIAR E SUBIR UM ARQUIVO GIT:
 
 Usuario@Admin MINGW64 ~
-$ git --version
+$ git --version ( Diz a versão do Git)
 git version 2.22.0.windows.1
 
 Usuario@Admin MINGW64 ~
-$ pwd
+$ pwd ( Mostra o diretório que você está)
 /c/Users/Usuario
 
 Usuario@Admin MINGW64 ~
-$ ls
+$ ls ( Lista os itens do diretório)
  1/
 '3D Objects'/
 'Ambiente de Impressão'@
 'Ambiente de Rede'@
  AndroidStudioProjects/
- AppData/
-'Application Data'/
-'Configurações Locais'@
- Contacts/
- Cookies@
-'Dados de Aplicativos'@
- Desktop/
- Documents/
- Downloads/
- edb_psqlodbc.exe*
- edb_psqlodbc.exe-20170919213452*
- Favorites/
- hsperfdata_Usuario/
- IntelGraphicsProfiles/
- Links/
-'Menu Iniciar'@
-'Meus Documentos'@
- MicrosoftEdgeBackups/
- Modelos@
- Music/
- NTUSER.DAT
- ntuser.dat.LOG1
- ntuser.dat.LOG2
- NTUSER.DAT{1052bc03-51db-11e9-8bed-d308fea7049a}.TM.blf
- NTUSER.DAT{1052bc03-51db-11e9-8bed-d308fea7049a}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{1052bc03-51db-11e9-8bed-d308fea7049a}.TMContainer00000000000000000002.regtrans-ms
- ntuser.ini
- OneDrive/
- Pictures/
- README.md
- Recent@
-'Saved Games'/
- Searches/
- SendTo@
- Videos/
-'VirtualBox VMs'/
- workspace/
+ ... ( etc )
 
 Usuario@Admin MINGW64 ~
-$ cd Documents
+$ cd Documents ( cd serve para acessar a pasta desejada que vai estar listada no ls)
 
 Usuario@Admin MINGW64 ~/Documents
-$ ls
+$ ls ( Lista arquivos dentro do Documents)
 '~$lho augusto (Salvo Automaticamente).docx'                                            'filho augusto (Salvo Automaticamente).docx'
 '~$lho augusto.docx'                                                                    'filho augusto.docx'
 '~WRL3081.tmp'                                                                          'filho augusto.zip'
 '~WRL3427.tmp'                                                                          'filho augusto-1.jpg'
- 1521753283Planilha_de_Controle_de_Gastos_-_Autnomos.xlsx                               'GIT VINICIUS'/
- 157_1515676503_2018.pdf                                                                 GitProjetos/
-'160_1515676693_2018 (1).pdf'                                                           'Hightech 2019'/
- 160_1515676693_2018.pdf                                                                'HORARIO DA BB.docx'
- 165_1515676943_2018.pdf                                                                 Image-Line/
-'Apostila Alg.pdf'                                                                      'Itens dofus.txt'
- apostila_java_android.pdf                                                              'League of Legends'/
- apostila_javaoo_2.0.pdf                                                                'Links de estudos.docx'
- Apple.txt                                                                              'materia formatura 68 anos PE s foto.docx'
-'Arquivos do Outlook'/                                                                  'materia formatura 68 anos PE.docx'
-'Boletos Hightech'/                                                                     'materia formatura 68 anos PE.pdf'
-'Cirurgico cuidados pós morte do paciente cirurgico.pptx [Salvo automaticamente].pptx'  'Meus Vídeos'@
- colecoes-20170811T005019Z-001.zip                                                      'Minhas Imagens'@
-'Configuração Notebook.docx'                                                            'Minhas Músicas'@
-'Conta Dofus -.txt'                                                                      modelo_de_curriculo_senac.doc
- Contas/                                                                                'Modelos Personalizados do Office'/
- cptm_abertura_cp0032017.pdf                                                             NetBeansProjects/
-'Curriculo_Bruno senac correto.doc'                                                      org.eclipse.jdt.core.prefs
- Depois-do-E.-Médio.pptx                                                                 Paypal.txt
- desktop.ini                                                                             Portal-de-Negócios-da-Habitação.pdf
-'Duvidas Hightech.txt'                                                                   ProgramaPrincipal.class
- ediario_20190603072816.pdf                                                              Projeto/
- edital_progep_2017_056.pdf                                                              ProjetoWeb.zip
- edital_progep_2017_057.pdf                                                             'QSCON 2018.pdf'
- edital_progep_2017_058.pdf                                                              Secret/
- edital_progep_2017_059.pdf                                                             'slides financeiro att 2.pptx'
- edital_progep_2017_083.pdf                                                             'slides financeiro att.pptx'
- edital_prograd_2017_006.pdf                                                             SubirProjetoGit.rtf
- exercicio_aula15.pdf                                                                   'Suporte ankama.txt'
- Faculdade/                                                                             'trabalho de matematica.docx'
-'Faculdade caca'/                                                                       'TRE_MS • Comprovante de agendamento de atendimento.html'
- FDBWeb2T16/                                                                            'TRE_MS • Comprovante de agendamento de atendimento_files'/
-'figuras faltantes álbum copa.pdf'                                                       vlc-media-player-2-2-6.exe*
+ 1521753283Planilha_de_Controle_de_Gastos_-_Autnomos.xlsx
 
 Usuario@Admin MINGW64 ~/Documents
-$ cd GitProjetos
+$ cd GitProjetos ( cd acessa a pasta GitProjetos que vai estar listada )
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos
 $ ls
