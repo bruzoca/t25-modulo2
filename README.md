@@ -1,10 +1,10 @@
-Módulo 4 - Turma 25 - Hightech Cursos - 2019
+Módulo 2 - Turma 25 - Hightech Cursos - 2019 ( CONFLITO CORRIGIDO )
 
 Modificando arquivo readme para teste.
 
 COMO ENVIAR, CRIAR E SUBIR UM ARQUIVO GIT:
 
-Usuario@Admin MINGW64 ~
+Usuarigo@Admin MINGW64 ~
 $ git --version ( Diz a versão do Git)
 git version 2.22.0.windows.1
 
