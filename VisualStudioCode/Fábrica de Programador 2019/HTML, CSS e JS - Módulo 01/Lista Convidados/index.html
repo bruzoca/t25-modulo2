@@ -1,0 +1,35 @@
+<html>
+    <head>
+
+        <title>Lista de Convidados</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/addConvidado.js"></script>
+
+    </head>
+        <body>
+
+            <div id="cardAdicionar" class="card">
+
+                <h2>Adicionar Convidado</h2>
+
+                <div id="entrada">
+                    <input type="text" id="inputConvidado" placeholder="Nome do Convidado">
+                </div>
+                
+                <button type="button" onclick="gerenciador.adicionarConvidado()">Adicionar</button>
+                <button type="button" onclick="gerenciador.cancelar()">Cancelar</button>
+
+            </div>
+            
+            <div id="listaConvidados" class="card">
+
+                <h2>Lista de Convidados</h2>
+                <span id="lista"></span>
+                <button type="button" onclick="gerenciador.limpar()">Limpar</button>
+
+            </div>
+            
+        </body>
+    </head>
+</html>

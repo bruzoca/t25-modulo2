@@ -1,4 +1,4 @@
-Módulo 2 - Turma 25 - Hightech Cursos - 2019
+Módulo 4 - Turma 25 - Hightech Cursos - 2019
 
 Modificando arquivo readme para teste.
 
@@ -76,7 +76,7 @@ $ ls
 'Hightech 2019'/
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ cd Hightech\ 2019/
+$ cd Hightech\ 2019/ ( ESCREVE-SE ASSIM QUANDO HÁ MAIS DE DUAS PALAVRAS)
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019
 $ ls
@@ -133,11 +133,11 @@ user.name=bruzoca
 user.email=brunoariasrocha@hotmail.com
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019
-$ git init
+$ git init ( DA-SE UMA VEZ SÓ PARA INICIAR COMO ARQUIVO DE GIT )
 Initialized empty Git repository in C:/Users/Usuario/Documents/GitProjetos/Hightech 2019/.git/
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
-$ git add README.md
+$ git add README.md ( ADICIONA O ARQUIVO AO GIT)
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
 $ git status
@@ -152,7 +152,7 @@ Changes to be committed:
 
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
-$ git commit -m "Inicializando o projeto/GIT"
+$ git commit -m "Inicializando o projeto/GIT" ( DA-SE UM COMENTÁRIO SOBRE O PROJETO QUE ESTA SUBINDO)
 [master (root-commit) 8178401] Inicializando o projeto/GIT
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
@@ -171,7 +171,7 @@ On branch master
 nothing to commit, working tree clean
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
-$ git push -u origin master
+$ git push -u origin master ( PARTE FINAL DE SUBIR )
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 274 bytes | 68.00 KiB/s, done.
@@ -199,7 +199,7 @@ Nothing specified, nothing added.
 Maybe you wanted to say 'git add .'?
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
-$ git add .
+$ git add . ( O "." SERVE PARA ADICIONAR TODOS OS ARQUIVOS)
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos/Hightech 2019 (master)
 $ git status
