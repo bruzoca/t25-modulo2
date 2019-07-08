@@ -23,7 +23,7 @@ $ ls ( Lista os itens do diretório)
 
 Usuario@Admin MINGW64 ~
 $ cd Documents ( cd serve para acessar a pasta desejada que vai estar listada no ls)
-
+  
 Usuario@Admin MINGW64 ~/Documents
 $ ls ( Lista arquivos dentro do Documents)
 '~$lho augusto (Salvo Automaticamente).docx'                                            'filho augusto (Salvo Automaticamente).docx'
@@ -46,26 +46,6 @@ bash: cd: GitProjetos: No such file or directory
 Usuario@Admin MINGW64 ~/Documents/GitProjetos
 $ cd Hightech 2019
 bash: cd: too many arguments
-
-Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ cd Hightech 2019
-bash: cd: too many arguments
-
-Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ ls
-'Hightech 2019'/
-
-Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ cd Hightech
-bash: cd: Hightech: No such file or directory
-
-Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ cd Hightech 2019
-bash: cd: too many arguments
-
-Usuario@Admin MINGW64 ~/Documents/GitProjetos
-$ ls
-'Hightech 2019'/
 
 Usuario@Admin MINGW64 ~/Documents/GitProjetos
 $ cd Hightech 2019
